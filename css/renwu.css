@@ -1,0 +1,61 @@
+
+    #le1 img {
+        width: 66%;
+        height: 66%;
+        float: left;
+        position: relative;
+        top: 40px;
+        left: 90px;
+        /* transition: transform .2s; */
+        /* clip-path: polygon(0 0, 75% 0, 75% 100%, 0 100%); */
+    
+    }
+
+    #le1 {
+        width: 50%;
+        height: 100%;
+        /* background-color: antiquewhite; */
+        /* clip-path: polygon(0 0, 100% 0, 100% 25%, 0 75%); */
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 1;
+    }
+    .le1c1{
+        clip-path: polygon(0 0, 100% 0, 100% 55%, 0 75%);
+    }
+    .le1c2{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    
+    #ri1 img {
+        width: 66%;
+        height: 66%;
+        float: right;
+        position: relative;
+        top: 340px;
+        
+    }
+
+    #ri1 {
+        width: 50%;
+        height: 100%;
+        float: right;
+        /* background-color: antiquewhite; */
+        /* clip-path: polygon(0 75%, 100% 25%, 100% 100%, 0 100%); */
+        /* float: right; */
+        z-index: 2;
+    }
+    .ri1c1{
+        clip-path: polygon(0 55%, 100% 25%, 100% 100%, 0 100%);
+        
+    }
+    .ri1c2{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+    .imga{
+        clip-path: polygon(0 0, 75% 0, 75% 100%, 0 100%);
+    }
+    /*.imgb{
+        clip-path: polygon(0 0, 75% 0, 75% 100%, 0 100%);
+    }*/

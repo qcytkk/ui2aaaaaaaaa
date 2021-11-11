@@ -1,0 +1,57 @@
+    #aa {
+        width: 2200px;
+        height: 100px;
+        overflow: hidden;
+        /* background-color: #00BFFF; */
+        transition: transform .5s;
+        /* transform: rotate(-15deg); */
+        /* margin: auto; */
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        margin-left: -50px;
+        z-index: 3;
+    }
+
+
+    #a0 {
+        /* display: flex; */
+        margin-left: -145px;
+        animation: moveSlideshow 3s linear infinite;
+        background-color: #0f77fa;
+        display: flex;
+    }
+
+    #a1 {
+        /* margin-left: 125px; */
+        animation: moveSlideshow2 3s linear infinite;
+        background-color: #ff09a3;
+        display: flex;
+    }
+
+    li {
+        width: 120px;
+        height: 50px;
+        color: aliceblue;
+        font-size: 30px;
+        font-weight: 800;
+        margin-right: 25px;
+        /* float: left; */
+    }
+
+    @keyframes moveSlideshow {
+        100% {
+            transform: translateX(145px);
+            /* 这里的值应该为重复循环的内容的宽度 */
+        }
+    }
+
+    @keyframes moveSlideshow2 {
+        100% {
+            transform: translateX(-145px);
+            /* 这里的值应该为重复循环的内容的宽度 */
+        }
+    }
